@@ -1,0 +1,19 @@
+## Description
+A simple java + maven + junit project to introduce the concept of API testing
+
+# Run on JSE 16
+## Install :
+Install JRE
+Install Maven
+
+Git clone the project
+mvn clean install
+
+## Launching the tests
+mvn test
+
+
+## Dependencies
+Junit5
+HttpClient
+maven-surefire-plugin (to launch junit tests)
