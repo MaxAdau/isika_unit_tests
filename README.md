@@ -6,7 +6,7 @@ This project will be use as common code base to learn how to implement unit test
 
 ```bash
 # First, download the project
-$ git clone https://github.com/MaxAdau/isika_maven_junit.git
+$ git clone https://github.com/MaxAdau/isika_unit_tests.git
 
 # Run the maven test goal
 $ cd isika_maven_junit
@@ -34,3 +34,13 @@ Then, in Eclipse :
 1. Select the pom/xml file
 1. Click on Finish
 1. Enjoy your fabulous empty wonderful java project ...
+
+
+ 
+```bash
+# You can use
+mvn test
+
+# to generate an html report in target/site/surefire-report.html
+```
+
