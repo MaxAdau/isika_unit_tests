@@ -6,7 +6,7 @@ This project will be use as common code base to learn how to implement unit test
 
 ```bash
 # First, download the project
-$ git clone https://github.com/MaxAdau/isika_maven_junit.git
+$ git clone https://github.com/MaxAdau/isika_unit_tests.git
 
 # Run the maven test goal
 $ cd isika_maven_junit
