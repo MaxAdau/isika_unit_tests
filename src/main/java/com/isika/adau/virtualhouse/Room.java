@@ -5,6 +5,10 @@ public class Room {
 	String roomName;
 	
 	public Room(int squareMeter, String roomName) {
+		if (squareMeter <= 0) {
+			throw new IllegalArgumentException("squareMeter should be positive");
+		}
+		
 		this.squareMeter = squareMeter;
 		this.roomName = roomName;
 	}
