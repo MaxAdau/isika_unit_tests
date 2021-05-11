@@ -34,3 +34,13 @@ Then, in Eclipse :
 1. Select the pom/xml file
 1. Click on Finish
 1. Enjoy your fabulous empty wonderful java project ...
+
+
+ 
+```bash
+# You can use
+mvn test
+
+# to generate an htmp report in target/site/surefire-report.html
+```
+
