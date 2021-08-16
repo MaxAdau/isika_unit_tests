@@ -40,7 +40,5 @@ Then, in Eclipse :
 ```bash
 # You can use
 mvn test
-
-# to generate an html report in target/site/surefire-report.html
 ```
 
